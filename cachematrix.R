@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## In the second function, we will check if the mean is already calculated (cached)
+## In the second function, we will check if the inverse is already calculated (cached)
 ## If it is not, then it will calculate it.
 
 cacheSolve <- function(x, ...) {
